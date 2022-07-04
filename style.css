@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    color: rgba(0 , 0 , 0, 0.5);
+}
+
+.nav-item{
+    color: white;
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+}
+.container-page1{
+    text-align: center;
+    margin-top: 250px;
+}
+
+.container-score {
+  position: relative;
+  top: 35%;
+  left: -25%;
+  width: 30%;
+}
+
+.container-score p {
+  padding: 1rem 0;
+}
+
+.t-score {
+  height: 100vh;
+  gap: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.score-title {
+  margin-bottom: 30px;
+  padding: 50px;
+}
+
+.score-title h1 {
+  padding: 20px 20px 20px 0;
+  text-transform: uppercase;
+  color: white;
+  font-size: 56px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.score-title p {
+  padding: 20px 20px 20px 0;
+  color: white;
+  width: 500px;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.score-title button {
+  width: 200px;
+  height: 60px;
+}
+
+.card img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.card-title {
+  width: 11rem;
+  position: absolute;
+}
+
+.card-subtitle {
+  padding-top: 2.5rem;
+}
+
+.card {
+  background: rgba(25, 26, 27, 0.8);
+  border-radius: 10px;
+  width: 500px;
+}
+.card-twitter {
+  display: inline;
+  max-width: 20px;
+  max-height: 15px;
+  left: 10rem;
+  position: relative;
+}
+
+.card-name {
+  padding-right: 13rem;
+}
+
+.main-card {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.top-score {
+  left: 50%;
+  position: relative;
+  max-width: 40%;
+}
+
+.profile {
+  position: relative;
+  width: 5rem;
+}
+.image {
+  width: 100%;
+  position: relative;
+}
+.ellipse {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -45%);
+}
+
+h1 {
+    font-family: "Bebas Neue";
+    font-size: 80px;
+    color: white;
+    word-spacing: 3px;
+    letter-spacing: 5px;
+}
+
+p{
+    font-family: "Bebas Neue";
+    color: white;
+}
+
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.col{
+    margin-top: 50vh;
+}
+.scroll-down{
+    margin-top: 300px;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    grid-auto-rows: 100px;
+    grid-template-areas: "a b b b b"
+                         "a b b b b";
+}
+
+.item1{
+    grid-area: a;
+    text-align: right;
+    margin-top: 45vh;
+}
+
+.item2{
+    grid-area: b;
+    margin-top: 50vh;
+    margin-right: 100px;
+}
+
+.page3-tittle{
+    text-align: center;
+    padding-top: 180px;
+    margin-left: 50vh;
+}
+.timeline-area{
+    margin: 90px 0 0 120vh;
+    width: 360px;
+    height: 140px;
+    border-left: 2px solid #ccc;
+    padding: 0 15px 0 30px;
+}
+
+.p3-section1, .p3-section2, .p3-section3{
+    padding: 10px 25px;
+    font-size: 16px;
+    line-height: 1.7;
+    position: relative;
+    height: 110px;
+    margin-bottom: 20px;
+}
+
+.p3-section1::after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: white;
+    border-width: 8px;
+    border-radius: 50%;
+    position: absolute;
+    left: -39px;
+    top: -1px;
+}
+
+.p3-section2::after{
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid white;
+    position: absolute;
+    top: 10px;
+    left: -39px;
+}
+
+.p3-section3::after{
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid white;
+    position: absolute;
+    top: -35px;
+    left: -39px;
+}
+
+.tg, .gs{
+    margin-top: -15px;
+}
+
+.tbd{
+    margin-top: -50px;
+}
+.pg4{
+    margin-top: 0px;
+}
+
+.img-skull{
+    width: 300px;
+    margin-top: 40vh;
+    margin-left: -70vh;
+}
+.form{
+    display: inline-flex;
+}
+.skull {
+    display: flex;
+    padding-top: 5rem;
+  }
+  
+  .form-floating {
+    display: inline-flex;
+    width: 100%;
+  }
+  
+  .form-floating input {
+    max-width: 55%;
+    border-color: rgba(0, 128, 0, 0.25);
+  }
+
+  .page-footer {
+    padding-top: 7rem;
+    max-width: 90%;
+    margin-left: 5%;
+    align-items: center;
+  }
+  
+  .footer-menu {
+    margin-left: 10%;
+    padding-left: 10%;
+  }
+  
+.vertical-footer-bottom {
+    display: flex;
+    position: absolute;
+    top: 40vh;
+    width: 97vw;
+    justify-content: center;
+}
+  
+.page1 {
+    background-image: url(/assets/main-bg.jpg);
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+}
+.page2 {
+    background-image: url(assets/the-games-bg.jpg);
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.page3 {
+    background-image: url(assets/features.jpg);
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.page4 {
+    background-image: url(assets/requirements.png);
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.page5 {
+    background-image: url(assets/top-score-bg.png);
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: -250px;
+}
+
+.page6 {
+    background-image: url(assets/newsletter.png);
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: -250px;
+}
